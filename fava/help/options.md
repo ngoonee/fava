@@ -214,7 +214,10 @@ sub-accounts.
 Default: `60`
 
 If there has been no activity in given number of days since the last balance
-entry, then the grey uptodate-indicator is shown.
+entry, then the grey uptodate-indicator is shown. For this option to be useful,
+the account(s) for indication need to be specified. This is done by adding
+the metadata line `fava-uptodate-indication: "True"` to the account(s) `open`
+directive.
 
 ---
 
